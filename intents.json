@@ -1,0 +1,59 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+	 "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+	},
+       	{"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+	},
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+	},
+      	{"tag": "hours",
+	 "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "hours"],
+         "responses": ["To find out what time a branch is open you can use our branch locator.  Our branch locator makes it easy to track down the closest branches and cash machines. http://locator-rbs.co.uk/"]
+	},
+      	{"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["To find out what time a branch is open you can use our branch locator.  Our branch locator makes it easy to track down the closest branches and cash machines. http://locator-rbs.co.uk/"]
+	},
+	{"tag": "PaymentDuration",
+	 "patterns": ["How long will a payment or transfer take to arrive?"],
+	 "responses": ["Transfers between your accounts.  As long as you have enough money in the account you want to transfer from the transfer to your other online account will take place immediately. You can transfer up to £99,999.99 per transaction with a minimum limit of 1p. There is no daily maximum for the number of transfers you can make.  You can log in to Digital Banking at https://www.rbsdigital.com.  Payments to another person, business or account with another bank.  If you are making a payment after 6.30pm, on a weekend, or a Bank holiday, the payment will normally leave you account immediately, and be available in the recipient bank account within a few hours. The date displayed when making the payment and on your statement will be the next working day.  Outside of these exception times the date displayed will be today, the payment will leave your account immediately, and will be available in the recipient bank within a few hours.  Points to note.  Payments and transfers that you make after 6.30pm Monday to Friday, at weekends and on Bank Holidays leave your account immediately, but the date on your screen will show as the next banking day.  Usually, Faster Payments will be received by the payee almost immediately after leaving your account, but can sometimes take up to 2 hours.  Your money can take more time to show on a credit card account.  Transactions that are unusual to the normal operation of your account will be sent after we have completed some further investigation to make sure that your payment instruction is genuine.  You can't recall or cancel a Faster Payment once you have sent it, and you would need to contact the payee and ask them to send the money back to you.  Digital Banking has a maximum payment limit of £20,000.00 per working day for personal and business customers. Telephone Banking has a maximum payment limit of £10,000.00. Payments made on a Saturday, Sunday or Bank Holiday will form part of the allowance for the next working day.  If you need to make a large value payment above the maximum payment limit, you can make a CHAPS payment through your branch. Remember to take your debit card and proof of identification with you.  If you are a business customer who regularly needs to make transactions greater than £20,000.00 then the service may be better suited to your needs."]
+	},
+	{"tag": "GoingAbroad",
+	 "patterns": ["I am going abroad and don't want my card to be blocked, what should I do?"],
+	 "responses": ["If you intend to use your personal debit or credit card abroad it is best that you let us know. Telling us in advance that you're travelling will notify our transaction monitoring systems you will be using your debit or credit card abroad. This will significantly reduce the likelihood of your transactions being blocked.  Let us know you'll be using your card abroad.  If you are signed up for Digital Banking, you can log on and register the details of your trip yourself by completing the online form. It only takes a few minutes.  All you need to do is select 'Cards' from the left hand menu and register your travel plans in the 'Using your card abroad' section.  For debit cards select 'Register your travel plans for your debit card' and for credit cards select 'Register your travel plans for your credit card'."]
+	},
+	{"tag": "NoCardReader",
+	 "patterns": ["I don't have a card-reader, how can I make a payment?"],
+	 "responses": ["You don't need a card-reader to arrange a payment to someone you have already paid online. If you haven't made a payment to this person before, please see the following options on how best to make a payment.  Digital Banking.  If you want to set up or amend a payee in Digital Banking you will need a card-reader. However, you shouldn't need one to arrange a payment to someone you have already paid online.  How do I order a card-reader?  Mobile banking:  You don't need a card-reader if you use our mobile banking app. You can make payments of up to £250 by using the account number and sort code of the person or company you want to pay.  You can make up to 5 payments each working day subject to the £250 limit, or 20 payments to a limit of £1000 over 4 working days.  You can also make payments of up to £250 through the Pay Your Contacts feature on our Mobile Banking app."]
+	},
+	{"tag": "Iban",
+	 "patterns": ["Where can I find my IBAN and BIC numbers?"],
+	 "responses": ["You can find your IBAN and BIC, on your account on Digital Banking or your account statement: www.rbsdigital.com.  Select the account you wish to view from the'Account summar' screen.  Select the option 'View account details'.  You will see the IBAN BIC code listed on screen."]
+	},
+	{"tag": "DigitalBanking",
+	 "patterns": ["What is the quickest way to register for Digital Banking?"],
+	 "responses": ["Simply sign up online using your debit card details and you could have instant access to your accounts today.  There is no faster way to get your Digital Banking service up and running."]
+	},
+	{"tag": "Balance",
+	 "patterns": ["What is the difference between Balance, Available and Today's balance in Digital Banking?"],
+	 "responses": ["Here are some useful tips to help you work out how much you have available to spend. The Account balance, Available balance and Today's balance can be found on the 'Account summary' page in your Digital Banking.g'Today's balance' shows how much money you have in your account at the start of the business day.  The 'Available' balance tells you how much you can spend today. 'Available' is a more accurate reflection of how much you can spend at that time. It will include pending payments such as debit card (POS) transactions but will exclude recent contactless card payments. Any agreed overdraft you have with us will be included.  The Account balance will show your balance on that day after all your transactions have come off.  Example: If you have £350 in your account with a £100 overdraft, the 'Balance' column and 'Today's balance' would be £350 and the 'Available' column would be £450.  A debit card example: If you now buy items for £50 on your debit card in a shop, the 'Available' column will now show as £400. 'Today's balance' will reduce to £300 once the retailer has claimed the £50 and the transaction has been processed. The difference of £100 is your agreed overdraft limit.  More information on debit card payments: Contactless payments work slightly differently as they don't show immediately in your Available balance.  More information on contactless payments: An uncleared cheque example.  If you have just paid in a cheque for £50 the 'Available' column will stay as £450 until the money has cleared. 'Today's balance' will show as £400 on the next working day.  When the cheque has cleared, 'Today's balance' will still show as £400, and the 'Available' column will increase to £500. The difference of £100 is your agreed overdraft limit.  My balance at the weekend.  Your balance might not be what you were expecting over the weekend and bank holidays."]
+	},
+	{"tag": "AccountInfo",
+	 "patterns": ["Where can I find my account number and sort code?"],
+	 "responses": ["You can find your 8 digit account number and 6 digit sort code by logging in to Digital Banking.  Your account number and sort code are shown on the 'Account summary' under 'Personal accounts'.  You can also find them on the following items:  Your cheque book.  Your credit book.  Your bank statement.  If you have our mobile banking app you can also log in to view your account number or sort code.  You can also find your 6 digit sort code on your debit card.  Our branches are also able to print off the account number and sort code for you.  You can also choose to contact us."]
+	},
+	{"tag": "Overdraft",
+	 "patterns": ["How can I find out my overdraft limit?"],
+	 "responses": ["You can view your overdraft limit for your current account on your Digital Banking service.  Log in to Digital Banking at https://www.rbsdigital.com.  Select the current account you would like to see the overdraft limit for.  The overdraft limit for that account will be displayed above your list of most recent transactions.  If your overdraft limit is shown as '0' you do not have an overdraft facility on this account at the moment. However, you may be eligible for one.  To manage your existing overdraft or apply for a new one visit our overdrafts page.  Also, for help with costs of arranged or unarranged borrowing, you can use our Overdraft calculator.  Alternatively, to find out your current overdraft limit you can contact us or visit your local branch."]
+	},
+	{"tag": "LostStolen",
+	 "patterns": ["How do I report a lost, stolen or damaged debit or savings card and order a replacement?"],
+	 "responses": ["You can now report your debit or savings card as lost or damaged and order a new one online.  Log in to Digital Banking at www.rbsdigital.com.  Select 'Cards' from the left hand menu.  In the 'Manage your debit card' section select 'Report your card lost and order a replacement' or 'Order a replacement for a damaged card'.  Fill in the details we are asking for on the form.  Please select 'Confirm' to complete your request.  If your debit card, credit card or savings card has been stolen or you think someone may have access to your card PIN, please contact us so that we can cancel the card and issue you with a new PIN.  Alternatively, if you are reporting a lost, stolen or damaged debit or savings card you can chat with us.  Please note: We would not be able to help you with a lost, stolen or damaged credit card in a WebChat.  Digital Banking card: If you have lost your Digital Banking card for use with a card-reader, please contact our Helpdesk. Please have your Digital Banking Customer Number to hand."]
+	}
+   ]
+}
